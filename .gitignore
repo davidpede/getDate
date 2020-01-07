@@ -1,1 +1,19 @@
+node_modules/*
+npm-debug.log
+yarn.lock
+composer.lock
+
 _build/build.config.php
+config.core.php
+
+# ignore mac files
+.DS_Store
+
+# ignore dev files
+/_dev
+/.idea
+vendor/
+
+# grunt built asset files
+static/css/*.*
+static/js/*.*
